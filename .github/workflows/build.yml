@@ -20,6 +20,7 @@ jobs:
       - name: Create project
         run: |
           mkdir -p app/src/main/java/com/jouda/auto app/src/main/res/xml app/src/main/res/values
+          echo "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" | base64 -d > app/jouda.keystore
 
           cat > settings.gradle.kts <<'EOF'
           pluginManagement { repositories { google(); mavenCentral(); gradlePluginPortal() } }
@@ -55,8 +56,19 @@ jobs:
                   applicationId = "com.jouda.auto"
                   minSdk = 24
                   targetSdk = 34
-                  versionCode = 1
-                  versionName = "1.0"
+                  versionCode = 2
+                  versionName = "2.0"
+              }
+              signingConfigs {
+                  create("fixed") {
+                      storeFile = file("jouda.keystore")
+                      storePassword = "jouda123"
+                      keyAlias = "jouda"
+                      keyPassword = "jouda123"
+                  }
+              }
+              buildTypes {
+                  getByName("debug") { signingConfig = signingConfigs.getByName("fixed") }
               }
               compileOptions {
                   sourceCompatibility = JavaVersion.VERSION_17
@@ -69,6 +81,7 @@ jobs:
           cat > app/src/main/AndroidManifest.xml <<'EOF'
           <?xml version="1.0" encoding="utf-8"?>
           <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+              <uses-permission android:name="android.permission.INTERNET" />
               <queries>
                   <intent>
                       <action android:name="android.intent.action.MAIN" />
@@ -131,7 +144,7 @@ jobs:
           import java.io.File
 
           data class QueueItem(val id: Long, val brand: String, val model: String, var status: String)
-          data class ResultItem(val queryId: Long, val query: String, val brand: String, val model: String, val badge: String, val image: String)
+          data class ResultItem(val queryId: Long, val query: String, val brand: String, val model: String, val badge: String, val image: String, val aiImage: String = "")
 
           object Store {
               private val lock = Any()
@@ -191,7 +204,7 @@ jobs:
                       val out = ArrayList<ResultItem>()
                       for (i in 0 until arr.length()) {
                           val o = arr.getJSONObject(i)
-                          out.add(ResultItem(o.getLong("q"), o.getString("query"), o.getString("brand"), o.getString("model"), o.getString("badge"), o.getString("image")))
+                          out.add(ResultItem(o.getLong("q"), o.getString("query"), o.getString("brand"), o.getString("model"), o.getString("badge"), o.getString("image"), o.optString("ai", "")))
                       }
                       return out
                   }
@@ -199,7 +212,7 @@ jobs:
 
               private fun saveResults(c: Context, list: List<ResultItem>) {
                   val arr = JSONArray()
-                  for (r in list) arr.put(JSONObject().put("q", r.queryId).put("query", r.query).put("brand", r.brand).put("model", r.model).put("badge", r.badge).put("image", r.image))
+                  for (r in list) arr.put(JSONObject().put("q", r.queryId).put("query", r.query).put("brand", r.brand).put("model", r.model).put("badge", r.badge).put("image", r.image).put("ai", r.aiImage))
                   p(c).edit().putString("results", arr.toString()).commit()
               }
 
@@ -214,8 +227,18 @@ jobs:
               fun removeResultsFor(c: Context, id: Long) {
                   synchronized(lock) {
                       val l = getResults(c)
-                      for (r in l) if (r.queryId == id && r.image.isNotEmpty()) File(r.image).delete()
+                      for (r in l) if (r.queryId == id) {
+                          if (r.image.isNotEmpty()) File(r.image).delete()
+                          if (r.aiImage.isNotEmpty()) File(r.aiImage).delete()
+                      }
                       l.removeAll { it.queryId == id }
+                      saveResults(c, l)
+                  }
+              }
+
+              fun setAi(c: Context, image: String, ai: String) {
+                  synchronized(lock) {
+                      val l = getResults(c).map { if (it.image == image) it.copy(aiImage = ai) else it }
                       saveResults(c, l)
                   }
               }
@@ -275,6 +298,8 @@ jobs:
           import java.util.concurrent.CountDownLatch
           import java.util.concurrent.TimeUnit
 
+          class LoginRequired : Exception("login")
+
           class AutoService : AccessibilityService() {
 
               companion object {
@@ -302,15 +327,80 @@ jobs:
                           for (item in items) {
                               didWork = true
                               Store.setStatus(ctx, item.id, "running")
-                              val st = try { process(item) } catch (e: Exception) { log("خطأ: " + e.message); "error" }
+                              var loginFailed = false
+                              val st = try {
+                                  process(item)
+                              } catch (e: LoginRequired) {
+                                  if (doLogin()) {
+                                      try { process(item) } catch (e2: Exception) { log("خطأ بعد تسجيل الدخول"); "error" }
+                                  } else { loginFailed = true; "error" }
+                              } catch (e: Exception) { log("خطأ: " + e.message); "error" }
                               Store.setStatus(ctx, item.id, st)
+                              if (loginFailed) {
+                                  Scheduler.disable(ctx)
+                                  Store.putStr(ctx, "auto", "0")
+                                  log(Store.getStr(ctx, "log", "") + " — تم إيقاف البحث التلقائي")
+                                  break
+                              }
                               Thread.sleep(5000)
                           }
+                          if (didWork) { performGlobalAction(AccessibilityService.GLOBAL_ACTION_HOME); didWork = false }
+                          if (Store.getStr(ctx, "gemini", "0") == "1") Gemini.enhanceAll(ctx)
+                      } catch (e: Exception) {
+                          log("خطأ: " + e.message)
                       } finally {
                           if (didWork) performGlobalAction(AccessibilityService.GLOBAL_ACTION_HOME)
                           running = false
                       }
                   }.start()
+              }
+
+              // ---------- تسجيل الدخول التلقائي ----------
+
+              private fun loginShown(root: AccessibilityNodeInfo): Boolean =
+                  allNodes(root).any { val t = label(it); t.contains("تسجيل الدخول مرة أخرى") || t.contains("نسيت كلمة المرور") }
+
+              private fun top(n: AccessibilityNodeInfo): Int { val r = Rect(); n.getBoundsInScreen(r); return r.top }
+
+              private fun setText(n: AccessibilityNodeInfo, text: String) {
+                  n.performAction(AccessibilityNodeInfo.ACTION_CLICK)
+                  Thread.sleep(400)
+                  val args = Bundle()
+                  args.putCharSequence(AccessibilityNodeInfo.ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE, text)
+                  n.performAction(AccessibilityNodeInfo.ACTION_SET_TEXT, args)
+              }
+
+              private fun doLogin(): Boolean {
+                  val phone = Store.getStr(this, "phone", "").trim()
+                  val pass = Store.getStr(this, "pass", "")
+                  if (phone.isEmpty() || pass.isEmpty()) { log("التطبيق طلب تسجيل الدخول: أدخل الرقم وكلمة السر في إعدادات Jouda"); return false }
+                  var root = rootInActiveWindow ?: return false
+                  if (allNodes(root).any { label(it).contains("تسجيل الدخول مرة أخرى") }) {
+                      val btn = allNodes(root).filter { label(it).trim() == "تسجيل الدخول" }.maxByOrNull { top(it) }
+                      if (btn != null) click(btn)
+                      Thread.sleep(3000)
+                  }
+                  waitRaw(15000) { r -> allNodes(r).firstOrNull { label(it).contains("نسيت كلمة المرور") } }
+                      ?: run { log("لم تظهر شاشة تسجيل الدخول"); return false }
+                  root = rootInActiveWindow ?: return false
+                  val edits = allNodes(root).filter { isEdit(it) }.sortedBy { top(it) }
+                  if (edits.size < 2) { log("لم أجد خانات الرقم وكلمة السر"); return false }
+                  setText(edits[0], phone)
+                  Thread.sleep(600)
+                  setText(edits[1], pass)
+                  Thread.sleep(800)
+                  root = rootInActiveWindow ?: return false
+                  val btn = allNodes(root).filter { !isEdit(it) && label(it).trim() == "تسجيل الدخول" }.maxByOrNull { top(it) }
+                      ?: run { log("لم أجد زر تسجيل الدخول"); return false }
+                  click(btn)
+                  Thread.sleep(7000)
+                  root = rootInActiveWindow ?: return false
+                  if (allNodes(root).any { label(it).contains("نسيت كلمة المرور") }) {
+                      log("فشل تسجيل الدخول: تحقق من الرقم وكلمة السر")
+                      return false
+                  }
+                  log("تم تسجيل الدخول تلقائياً")
+                  return true
               }
 
               private fun process(item: QueueItem): String {
@@ -381,6 +471,20 @@ jobs:
                   allNodes(root).firstOrNull { !isEdit(it) && label(it).contains(t, ignoreCase = true) }
 
               private fun waitFor(ms: Long, f: (AccessibilityNodeInfo) -> AccessibilityNodeInfo?): AccessibilityNodeInfo? {
+                  val end = System.currentTimeMillis() + ms
+                  while (System.currentTimeMillis() < end) {
+                      val root = rootInActiveWindow
+                      if (root != null) {
+                          if (loginShown(root)) throw LoginRequired()
+                          val r = f(root)
+                          if (r != null) return r
+                      }
+                      Thread.sleep(500)
+                  }
+                  return null
+              }
+
+              private fun waitRaw(ms: Long, f: (AccessibilityNodeInfo) -> AccessibilityNodeInfo?): AccessibilityNodeInfo? {
                   val end = System.currentTimeMillis() + ms
                   while (System.currentTimeMillis() < end) {
                       val root = rootInActiveWindow
@@ -488,6 +592,7 @@ jobs:
                   while (loops < 40 && noNew < 2) {
                       loops++
                       val root = rootInActiveWindow ?: break
+                      if (loginShown(root)) throw LoginRequired()
                       val shot = screenshot()
                       val nodes = allNodes(root)
                       val scroller = nodes.filter { it.isScrollable }.maxByOrNull { val r = Rect(); it.getBoundsInScreen(r); r.height() }
@@ -530,6 +635,79 @@ jobs:
                   }
                   for ((k, v) in later) if (!found.containsKey(k)) found[k] = v
                   return found.values.toList()
+              }
+          }
+          EOF
+
+          cat > app/src/main/java/com/jouda/auto/Gemini.kt <<'EOF'
+          package com.jouda.auto
+
+          import android.content.Context
+          import android.util.Base64
+          import org.json.JSONArray
+          import org.json.JSONObject
+          import java.io.File
+          import java.net.HttpURLConnection
+          import java.net.URL
+
+          object Gemini {
+              @Volatile var busy = false
+
+              fun enhance(c: Context, r: ResultItem): String? {
+                  val key = Store.getStr(c, "gkey", "").trim()
+                  if (key.isEmpty()) { Store.putStr(c, "log", "Gemini: أدخل المفتاح في الإعدادات"); return null }
+                  val model = Store.getStr(c, "gmodel", "gemini-3.1-flash-image").trim().ifEmpty { "gemini-3.1-flash-image" }
+                  val src = File(r.image)
+                  if (!src.exists()) return null
+                  val b64 = Base64.encodeToString(src.readBytes(), Base64.NO_WRAP)
+                  val name = (r.brand + " " + r.model).trim()
+                  val prompt = "This is a cropped screenshot of a listing card showing the phone " + name +
+                      ". Produce a clean, high quality product photo of exactly this phone: remove the card border, badges, labels and all text, " +
+                      "place the phone centered on a pure white background, sharper and better lit. " +
+                      "Do NOT change the phone design, camera layout, colors, buttons or proportions."
+                  val body = JSONObject()
+                      .put("contents", JSONArray().put(JSONObject().put("parts", JSONArray()
+                          .put(JSONObject().put("text", prompt))
+                          .put(JSONObject().put("inline_data", JSONObject().put("mime_type", "image/jpeg").put("data", b64))))))
+                      .put("generationConfig", JSONObject().put("responseModalities", JSONArray().put("IMAGE")))
+                  val con = URL("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent").openConnection() as HttpURLConnection
+                  con.requestMethod = "POST"
+                  con.doOutput = true
+                  con.connectTimeout = 30000
+                  con.readTimeout = 180000
+                  con.setRequestProperty("Content-Type", "application/json")
+                  con.setRequestProperty("x-goog-api-key", key)
+                  con.outputStream.use { it.write(body.toString().toByteArray()) }
+                  val code = con.responseCode
+                  val stream = if (code in 200..299) con.inputStream else con.errorStream
+                  val text = stream?.bufferedReader()?.use { it.readText() } ?: ""
+                  if (code !in 200..299) { Store.putStr(c, "log", "Gemini خطأ " + code + ": " + text.take(200)); return null }
+                  val parts = JSONObject(text).optJSONArray("candidates")?.optJSONObject(0)?.optJSONObject("content")?.optJSONArray("parts") ?: return null
+                  for (i in 0 until parts.length()) {
+                      val p = parts.getJSONObject(i)
+                      val d = p.optJSONObject("inlineData") ?: p.optJSONObject("inline_data") ?: continue
+                      val out = File(r.image.substringBeforeLast(".") + "_ai.png")
+                      out.writeBytes(Base64.decode(d.getString("data"), Base64.DEFAULT))
+                      return out.absolutePath
+                  }
+                  return null
+              }
+
+              fun enhanceAll(c: Context) {
+                  if (busy) return
+                  busy = true
+                  try {
+                      val todo = Store.getResults(c).filter { it.image.isNotEmpty() && it.aiImage.isEmpty() }
+                      var ok = 0
+                      for (r in todo) {
+                          val path = try { enhance(c, r) } catch (e: Exception) { Store.putStr(c, "log", "Gemini: " + e.message); null }
+                          if (path != null) { Store.setAi(c, r.image, path); ok++ }
+                          Thread.sleep(1500)
+                      }
+                      if (todo.isNotEmpty()) Store.putStr(c, "log", "Gemini: تم تحسين " + ok + " من " + todo.size + " صورة")
+                  } finally {
+                      busy = false
+                  }
               }
           }
           EOF
@@ -581,10 +759,32 @@ jobs:
                   text("عدد الموديلات في كل ساعة (1 إلى 5):")
                   val batchEt = edit(Store.getInt(this, "batch", 3).toString(), "3")
                   batchEt.inputType = InputType.TYPE_CLASS_NUMBER
+                  text("حساب تطبيق التوافقات (للدخول التلقائي عند الخروج من الحساب):")
+                  val phoneEt = edit(Store.getStr(this, "phone", ""), "رقم الهاتف")
+                  phoneEt.inputType = InputType.TYPE_CLASS_PHONE
+                  val passEt = edit(Store.getStr(this, "pass", ""), "كلمة المرور")
+                  passEt.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+                  text("Gemini (اختياري لتحسين الصور):")
+                  val keyEt = edit(Store.getStr(this, "gkey", ""), "مفتاح Gemini API")
+                  keyEt.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+                  val modelEt = edit(Store.getStr(this, "gmodel", "gemini-3.1-flash-image"), "اسم النموذج")
                   button("حفظ الإعدادات") {
                       Store.putStr(this, "start", startEt.text.toString().trim())
                       Store.putInt(this, "batch", (batchEt.text.toString().toIntOrNull() ?: 3).coerceIn(1, 5))
+                      Store.putStr(this, "phone", phoneEt.text.toString().trim())
+                      Store.putStr(this, "pass", passEt.text.toString())
+                      Store.putStr(this, "gkey", keyEt.text.toString().trim())
+                      Store.putStr(this, "gmodel", modelEt.text.toString().trim())
                       toast("تم الحفظ")
+                  }
+                  val gOn = Store.getStr(this, "gemini", "0") == "1"
+                  button(if (gOn) "✨ تحسين تلقائي بعد كل دورة: مفعّل (اضغط للإيقاف)" else "✨ تحسين تلقائي بعد كل دورة: متوقف (اضغط للتشغيل)") {
+                      Store.putStr(this, "gemini", if (gOn) "0" else "1")
+                      build()
+                  }
+                  button("✨ تحسين الصور الحالية الآن") {
+                      if (Gemini.busy) toast("التحسين يعمل بالفعل")
+                      else { val app = applicationContext; Thread { Gemini.enhanceAll(app) }.start(); toast("بدأ التحسين، اضغط تحديث بعد قليل") }
                   }
 
                   title("إضافة موديل")
@@ -631,12 +831,14 @@ jobs:
                   val row = LinearLayout(this)
                   row.orientation = LinearLayout.HORIZONTAL
                   row.setPadding(24, 8, 0, 8)
-                  if (r.image.isNotEmpty() && File(r.image).exists()) {
-                      val opts = BitmapFactory.Options()
-                      opts.inSampleSize = 3
-                      val iv = ImageView(this)
-                      iv.setImageBitmap(BitmapFactory.decodeFile(r.image, opts))
-                      row.addView(iv, LinearLayout.LayoutParams(200, 200))
+                  for (path in listOf(r.image, r.aiImage)) {
+                      if (path.isNotEmpty() && File(path).exists()) {
+                          val opts = BitmapFactory.Options()
+                          opts.inSampleSize = 3
+                          val iv = ImageView(this)
+                          iv.setImageBitmap(BitmapFactory.decodeFile(path, opts))
+                          row.addView(iv, LinearLayout.LayoutParams(200, 200))
+                      }
                   }
                   val tv = TextView(this)
                   tv.text = r.badge + "\n" + r.brand + " " + r.model
